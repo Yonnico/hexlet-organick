@@ -89,7 +89,14 @@ img {
 }
 
 .container {
+  width: 100%;
   max-width: 1596px;
+  margin-inline: auto;
+}
+
+.container-sm {
+  width: 100%;
+  max-width: 1400px;
   margin-inline: auto;
 }
 
@@ -138,8 +145,13 @@ img {
   height: 19px;
 }
 
-/* 
-.subscribe-banner {
-  width: 1400px;
+.subscribe-banner-wrapper {
+  margin-block: 15px;
+
+  background-image: url(../img/Subscribe.png);
+  background-size: cover;
+  background-position: center;
+
   height: 323px;
-} */
+  border-radius: 30px;
+}
