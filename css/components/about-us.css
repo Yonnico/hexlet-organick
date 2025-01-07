@@ -1,0 +1,61 @@
+.about-us-wrapper {
+  margin-bottom: 310px;
+
+  height: 1067px;
+
+  background-color: var(--cultured);
+
+  background-image: url(../../img/mandarinki.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+}
+
+.about-us {
+  padding-top: 186px;
+  padding-bottom: 199px;  
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-us-content {
+  width: 702px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 46px;
+}
+
+.about-us-text-title {
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+.about-us-points-card {
+  margin-bottom: 30px;
+
+  display: flex;
+}
+
+.about-us-points-card:last-child {
+  margin-bottom: 0;
+}
+
+.about-us-points-card-content {
+  width: 444px;
+}
+
+.about-us-points-card-icon {
+  margin-right: 19px;
+
+  height: 101px;
+}
+
+.about-us-points-card-title {
+  margin-bottom: 7px;
+}

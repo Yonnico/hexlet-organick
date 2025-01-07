@@ -1,0 +1,24 @@
+.choose-the-best-wrapper {
+  height: 898px;
+
+  background-image: url(../../img/Background-leafs.png), url(../../img/choose-the-best.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.choose-the-best {
+  padding-block: 246px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.choose-the-best-text-top {
+  color: var(--sage-green);
+}
+
+.choose-the-best-title {
+  margin-top: 5px;
+  margin-bottom: 23px;
+}

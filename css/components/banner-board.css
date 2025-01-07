@@ -1,0 +1,51 @@
+.banner-board-wrapper {
+  margin-top: 153px;
+  margin-bottom: 53px;
+}
+
+.banner-board {
+  height: 376px;
+
+  display: flex;
+
+  gap: 36px;
+}
+
+.banner-board-item {
+  border-radius: 30px;
+
+  width: 994px;
+  height: 367px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-board-item-content {
+  padding-left: 53px;
+}
+
+.banner-board-item-natural {
+  background-image: url(../../img/banana.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-board-item-offer {
+  background-image: url(../../img/peach.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-board-item-text-top-natural {
+  color: var(--white);
+}
+
+.banner-board-item-title-natural {
+  color: var(--white);
+}
+
+.banner-board-item-text-top-offer {
+  color: var(--sage-green-light);
+}

@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   color: var(--steel-blue);
   font-weight: 800;
+  line-height: normal;
 }
 
 h1 {
@@ -82,6 +83,7 @@ button {
 a {
   text-decoration:none;
   color: inherit;
+  line-height: normal;
 }
 
 img {
@@ -115,13 +117,24 @@ img {
   margin-left: 10px;
 }
 
+.yellowtail-text {
+  font-family: "Yellowtail", serif;
+  font-size: 36px;
+  line-height: normal;
+}
+
+.yellowtail-primary-color {
+  color: var(--sage-green-light);
+} 
+
 .button {
   border-radius: 16px;
 
   padding: 28px 39px 29px 39px;
 
+  line-height: normal;
+
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -143,55 +156,7 @@ img {
 }
 
 .arrow-right {
+  margin-left: 10px;
+
   height: 19px;
-}
-
-.subscribe-banner-wrapper {
-  margin-block: 15px;
-
-  background-image: url(../img/Subscribe.png);
-  background-size: cover;
-  background-position: center;
-
-  height: 323px;
-  border-radius: 30px;
-}
-
-.subscribe-banner {
-  display: flex;
-  justify-content: space-between;
-
-  margin: 105px 71px;
-
-  line-height: normal;
-}
-
-.subscribe-banner-title {
-  color: var(--white);
-
-  width: 357px;
-  height: 113px;
-}
-
-.subscribe-banner-form {
-  display: flex;
-  align-items: center;
-}
-
-.subscribe-banner-form-input {
-  padding: 28px 23px 31px 23px;
-
-  outline: none;
-  border: none;
-  border-radius: 16px;
-
-  background: var(--white);
-
-  width: 349px;
-  height: 80px;
-
-  font-family: 'Roboto', sans-serif;
-  font-style: italic; 
-
-  margin-right: 6px;
 }
