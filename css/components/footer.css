@@ -13,6 +13,7 @@
 
 .footer-contact-us-title {
   font-weight: 700;
+  line-height: normal;
 
   margin-bottom: 32px;
 }
@@ -51,6 +52,7 @@
 
 .footer-utility-pages-title {
   font-weight: 700;
+  line-height: normal;
 
   margin-bottom: 32px;
 }

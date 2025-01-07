@@ -108,6 +108,7 @@ img {
   color: var(--steel-blue);
   font-size: 38px;
   font-weight: 700;
+  line-height: normal;
 }
 
 .logo-text{
@@ -154,4 +155,43 @@ img {
 
   height: 323px;
   border-radius: 30px;
+}
+
+.subscribe-banner {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 105px 71px;
+
+  line-height: normal;
+}
+
+.subscribe-banner-title {
+  color: var(--white);
+
+  width: 357px;
+  height: 113px;
+}
+
+.subscribe-banner-form {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-banner-form-input {
+  padding: 28px 23px 31px 23px;
+
+  outline: none;
+  border: none;
+  border-radius: 16px;
+
+  background: var(--white);
+
+  width: 349px;
+  height: 80px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: italic; 
+
+  margin-right: 6px;
 }
