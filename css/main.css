@@ -1,3 +1,14 @@
+@import url('./normalize.css');
+@import url('./colors.css');
+@import url('./components/header.css');
+@import url('./components/footer.css');
+@import url('./components/organick.css');
+@import url('./components/subscribe-banner.css');
+@import url('./components/choose-the-best.css');
+@import url('./components/banner-board.css');
+@import url('./components/about-us.css');
+@import url('./components/our-products.css');
+
 * {
   box-sizing: border-box;
   margin: 0;
