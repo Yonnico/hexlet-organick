@@ -8,9 +8,6 @@
   background-image: url(../../img/mandarinki.png);
   background-size: cover;
   background-position: center;
-
-  display: flex;
-  align-items: center;
 }
 
 .about-us {
