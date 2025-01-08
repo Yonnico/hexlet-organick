@@ -45,6 +45,14 @@
   margin-right: 15px;
 }
 
+.footer-social-icon:hover {
+  opacity: 0.85;
+}
+
+.footer-social-icon:active {
+  opacity: 1;
+}
+
 .footer-social-icon:last-child {
   margin-right: 0px;
 }

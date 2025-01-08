@@ -70,6 +70,8 @@ blockquote {
 }
 
 button {
+  transition: opacity 0.3s;
+  
   outline: none;
   border: none;
   cursor: pointer;
@@ -78,6 +80,14 @@ button {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 700;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button:active {
+  opacity: 1;
 }
 
 a {
